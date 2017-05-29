@@ -1,0 +1,247 @@
+html, body {
+	font-family:  'Open Sans', sans-serif;
+	background-color: #FFFFFF;
+}
+
+
+/**=======================================================
+=========================HEADER===========================
+=======================================================**/
+
+.headerGris{
+	background: #2C2D2F;
+}
+
+
+
+
+/***********************************/
+/*************** LOGO **************/
+/***********************************/
+
+.navbar-brand{
+	width: 100%;
+	height: auto;
+	padding: 0;	
+}
+
+
+.headerGris img{
+	max-width: 100%;
+	height: auto;
+
+}
+
+/***********************************/
+/*************** MENU **************/
+/***********************************/
+.navbar-default{
+	background: #2C2D2F;
+	border-style: none;
+	margin-top: 20px;
+}
+
+
+.container-fluid{
+	padding-right: 0;
+}
+
+
+.navbar-collapse{
+	padding-right: 0;
+}
+
+
+#menuNav nav ul {
+	 list-style-type:none;
+	 float: right;
+	 margin: 0!important;
+ }
+
+
+#menuNav nav ul li{
+	display: inline-block;
+	background-color:transparent;
+}
+
+
+
+#menuNav nav ul li a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 12px;
+	padding-right: 0;
+	padding-left: 30px;
+}
+
+
+#menuNav nav ul li a:hover{
+	color: #47CCFF;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+
+a.langue1 {
+	padding-left: 30px!important;
+	float: right;
+}
+
+
+a.langue2 {
+	padding-left: 5px!important;
+	float: right;
+}
+
+
+/**=======================================================
+=========================CENTRE===========================
+=======================================================**/
+section h2{
+	height: 800px;
+	text-align: center;
+}
+
+/**=======================================================
+=========================FOOTER===========================
+=======================================================**/
+
+.fondBleu{
+	background: #47CCFF;
+	height: 5px;
+}
+
+.footerGris{
+	background: #2C2D2F;
+}
+
+
+/***********************************/
+/********** PARTIE GAUCHE **********/
+/***********************************/
+
+.epais{
+	font-size: 35px;
+	color: #47CCFF!important;	
+}
+
+
+.footerGris h2{
+	color: #47CCFF;
+	font-size: 15px;
+}
+
+
+.footerGris a{
+	color: #FFFFFF;
+	font-size: 13px;
+}
+
+
+.footerGris span{
+	color: #FFFFFF;
+	padding-right: 10px;
+	margin-bottom: 10px;	
+}
+
+.fa-envelope{
+	margin-bottom: 30px!important;
+}
+
+
+/***********************************/
+/********** PARTIE DROITE **********/
+/***********************************/
+
+/* ICONES RESEAUX SOCIAUX */
+#icones{
+	width: 100%;
+	margin-top: 20px;
+}
+
+
+#icones a{
+	color: #FFFFFF;
+	font-size: 30px;
+	float: right;
+	margin-left: 20px;
+}
+
+#icones a:hover{
+	color: #47CCFF;
+}
+
+
+
+/* PHRASE */
+.copyright{
+	width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+
+
+.copyright p{
+	float: right;
+	color:#FFFFFF;
+	font-size: 10px;
+	margin: 0;
+}
+
+
+.copyright a{
+	color:#FFFFFF;
+	font-size: 10px;
+
+}
+
+
+
+/**=======================================================
+=======================RESPONSIVE=========================
+=======================================================**/
+
+/** RESPONSIVE DE 321 A 752 PX **/
+@media screen and (min-width: 321px) and (max-width: 752px){
+
+	/***********************************/
+	/*************** LOGO **************/
+	/***********************************/
+
+	.navbar-brand{
+		width: 180%;
+		height: auto;
+		padding: 0;	
+	}
+
+
+	.headerGris img{
+		max-width: 100%;
+		height: auto;
+	}
+
+}
+
+/** RESPONSIVE DE 0 A 320 PX **/
+@media screen and (max-width: 320px){
+
+	/***********************************/
+	/*************** LOGO **************/
+	/***********************************/
+
+	.navbar-brand{
+		width: 270%;
+		height: auto;
+		padding: 0;	
+	}
+
+
+	.headerGris img{
+		max-width: 100%;
+		height: auto;
+		margin-top: 18%;
+	}
+
+
+
+}
